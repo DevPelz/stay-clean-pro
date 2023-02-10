@@ -21,9 +21,7 @@
             font-size:13px;
         }
         .box-head{
-            display:flex;
-            justify-content: center;
-            align-items: center;
+            display:block;
             font-size:13px;
         }
         @media print {
@@ -46,9 +44,7 @@
                 font-size:13px;
             }
             .box-head{
-            display:flex;
-            justify-content: center;
-            align-items: center;
+            display:block;
             font-size:13px;
         }
 
@@ -182,8 +178,8 @@
                 <td style="width:150px;text-align: center;">(.............)</td>
                 <!--<td style="width:342px;text-align: center;">dan elektronik</td>-->
             <!-- </tr>
-            </tbody> --> --> -->
-        </table>
+            </tbody> -->
+                </table>
     </div>
 </body>
 </html>
