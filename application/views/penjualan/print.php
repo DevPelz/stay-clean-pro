@@ -3,56 +3,73 @@
     <meta charset="ISO-8859-1">
     <style>
 
-        html, body {
-            width: 7cm; /* was 907px */
-            height: 13.5cm; /* was 529px */
-            display: block;
-            font-family: "Consolas";
-            margin:0;
-            /*font-size: auto; NOT A VALID PROPERTY */
-        }
-        table{
-            width:100%;
-            display:inline;
-            font-size:13px;
-        }
-        .box-body{
-            padding:10px;
-            font-size:13px;
-        }
-        .box-head{
-            display:block;
-            font-size:13px;
-        }
-        @media print {
-            html, body {
-                width: 7cm; /* was 8.5in */
-                height: 13.5cm; /* was 5.5in */
-                display: block;
-                font-family: "Consolas";
-                padding:0 10px;
-                margin:0;
-                /*font-size: auto; NOT A VALID PROPERTY */
-            }
-            table{
-                width:100%;
-                display:inline;
-                font-size:13px;
-            }
-            .box-body{
-                padding:10px;
-                font-size:13px;
-            }
-            .box-head{
-            display:block;
-            font-size:13px;
-        }
+html, body {
+    width: 7cm; /* was 907px */
+    height: 13.5cm; /* was 529px */
+    display: block;
+    font-family: "Consolas";
+    margin:0;
+    /*font-size: auto; NOT A VALID PROPERTY */
+}
+table{
+    width:100%;
+    display:inline;
+    font-size:13px;
+}
+.box-body{
+    padding:10px;
+    font-size:13px;
+}
+.box-head{
+    display:block;
+    font-size:13px;
+    padding:10px;
+    margin-left:30px;
+    align-items: center;
+}
+.thanks{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+}
+@media print {
+    html, body {
+        width: 7cm; /* was 8.5in */
+        height: 13.5cm; /* was 5.5in */
+        display: block;
+        font-family: "Consolas";
+        padding:0 10px;
+        margin:0;
+        /*font-size: auto; NOT A VALID PROPERTY */
+    }
+    table{
+        width:100%;
+        display:inline;
+        font-size:13px;
+    }
+    .box-body{
+        padding:10px;
+        font-size:13px;
+    }
+    .box-head{
+    display:block;
+    font-size:13px;
+    align-items: center;
+    padding:10px;
+}
+.thanks{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+}
 
-            @page {
-                size: 24cm 14cm /* . Random dot? */;
-            }
-        }
-    </style>
+    @page {
+        size: 2cm 5cm /* . Random dot? */;
+    }
+}
+</style>
 </head>
 <body>
     <div class="box-head" style="center">
